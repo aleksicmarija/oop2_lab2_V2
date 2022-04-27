@@ -1,10 +1,7 @@
 package revija;
 
-public abstract class Nosivo {
+public interface Nosivo {
 
-	public Nosivo() {
-	}
-
-	public abstract boolean odgovara(Model m);
+	public boolean odgovara(Model m);
 
 }
